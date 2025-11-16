@@ -20,7 +20,7 @@ echo "Instance ID: $instance_id"
 # Optional: Tag the instance
 aws ec2 create-tags \
     --resources $instance_id \
-    --tags Key=Name,Value=Launched-Instance-by-jenkins \
+    --tags Key=Name,Value=Launched-Instance-by-jenkins-mani \
     --region $REGION
 echo "Tag applied to instance: Jenkins-Launched-Instance"
 #End
